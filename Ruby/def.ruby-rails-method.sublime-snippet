@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[def ${1:method_name}
+	$2
+end
+]]></content>
+	<tabTrigger>def</tabTrigger>
+	<scope>source.ruby</scope>
+	<scope>source.ruby.rails</scope>
+	<string>source.ruby.rspec</string>
+	<description>Ruby/Rails Method</description>
+</snippet>
