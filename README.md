@@ -1,4 +1,4 @@
-# sublime-railsdev
+# railsdev-sublime-snippets
 At last count, I had over 500 ruby/rails/rspec snippets installed - each with different naming conventions (depending on who created them). I wanted a core collection of my most used snippets, hence, this collection.
 
 ## Package Installation
