@@ -13,6 +13,23 @@ At last count, I had over 500 ruby/rails/rspec snippets installed - each with di
     cd Users/<user>/AppData/Roaming/Sublime\ Text\ 2/Packages/
     git clone git@github.com:j10io/sublime-railsdev.git
 
+## Dependencies
+
+ * [ApplySyntax](https://github.com/facelessuser/ApplySyntax) a sublime text plugin for syntax detection (rspec etc...)
+ * [RSpec](https://github.com/SublimeText/RSpec) plugin for greater rspec support
+
+## My Setup
+
+It's worth noting, whilst I wanted to keep **some** of the functionality that Sublime Text provides for Ruby/Rails by default, as well as **some** functionality that the RSpec plugin provides, to avoid **snippet** collisions, I deleted all .sublime-snippet files from:
+
+ * ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/Ruby
+ * ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/Rails
+ * ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/RSpec/Snippets
+
+## Some support for
+ * [capybara](https://github.com/jnicklas/capybara) Acceptance test framework for web applications
+ * [shoulda](https://github.com/thoughtbot/shoulda) a validations gem by thoughtbot
+
 ## This project
 **Initial Commit:** 29th June 2013
 
