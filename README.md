@@ -1,5 +1,5 @@
 # railsdev-sublime-snippets
-At last count, I had over 500 ruby/rails/rspec snippets installed - each with different naming conventions (depending on who created them). I wanted a core collection of my most used snippets, hence, this collection.
+At last count, I had over 500 ruby/rails/rspec snippets installed - each with different naming conventions (depending on their creator). I wanted a core collection of useful snippets (with a somewhat-standard naming convention), hence I started from scratch and wrote the snippets in this collection.
 
 ## Package Installation
 
@@ -24,18 +24,19 @@ At last count, I had over 500 ruby/rails/rspec snippets installed - each with di
  
 ## My Setup (I'm on OSX... your mileage may vary)
 
-It's worth noting, whilst I wanted to keep **some** of the functionality that Sublime Text provides for Ruby/Rails by default, as well as **some** functionality that the RSpec plugin provides, to avoid **snippet collisions**, I deleted all other Ruby/Rails/RSpec .sublime-snippet files from:
+ 1. Install the dependencies above. 
+ 2. It's worth noting, whilst I wanted to keep **some** of the functionality that Sublime Text provides for Ruby/Rails by default, as well as **some** functionality that the RSpec plugin provides, to avoid **snippet collisions**, I deleted all other Ruby/Rails/RSpec .sublime-snippet files from:
 
  * ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/Ruby
  * ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/Rails
  * ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/RSpec/Snippets
 
 ### Delete like so...at your own risk!!!
-#### Ruby
+#### Ruby Snippets
     find ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/Ruby -iname *.sublime-snippet -exec rm {} \;
-#### Rails
+#### Rails Snippets
     find ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/Rails -iname *.sublime-snippet -exec rm {} \;
-#### Rspec
+#### Rspec Snippets
     find ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/RSpec/Snippets -iname *.sublime-snippet -exec rm {} \;
 
 
