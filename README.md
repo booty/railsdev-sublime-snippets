@@ -30,6 +30,9 @@ It's worth noting, whilst I wanted to keep **some** of the functionality that Su
  * [capybara](https://github.com/jnicklas/capybara) Acceptance test framework for web applications
  * [shoulda](https://github.com/thoughtbot/shoulda) a validations gem by thoughtbot
 
+## Contributing
+Whilst I'm happy to review pull requests for bugfixes, and even for new snippets, I will be unable to commit to merging all pull requests - especially edge-cases. As noted above, I started this project after having over 500 snippets, and as such, my preference is to not return there! If submitting a pull request, please consider whether or not your snippet is for an edge-case.
+
 ## This project
 **Initial Commit:** 29th June 2013
 
