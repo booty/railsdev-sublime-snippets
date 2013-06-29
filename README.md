@@ -18,17 +18,26 @@ At last count, I had over 500 ruby/rails/rspec snippets installed - each with di
  * [ApplySyntax](https://github.com/facelessuser/ApplySyntax) a sublime text plugin for syntax detection (rspec etc...)
  * [RSpec](https://github.com/SublimeText/RSpec) plugin for greater rspec support
 
-## My Setup
+## Some support for
+ * [capybara](https://github.com/jnicklas/capybara) Acceptance test framework for web applications
+ * [shoulda](https://github.com/thoughtbot/shoulda) a validations gem by thoughtbot
+ 
+## My Setup (I'm on OSX... your mileage may vary)
 
-It's worth noting, whilst I wanted to keep **some** of the functionality that Sublime Text provides for Ruby/Rails by default, as well as **some** functionality that the RSpec plugin provides, to avoid **snippet** collisions, I deleted all .sublime-snippet files from:
+It's worth noting, whilst I wanted to keep **some** of the functionality that Sublime Text provides for Ruby/Rails by default, as well as **some** functionality that the RSpec plugin provides, to avoid **snippet collisions**, I deleted all other Ruby/Rails/RSpec .sublime-snippet files from:
 
  * ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/Ruby
  * ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/Rails
  * ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/RSpec/Snippets
 
-## Some support for
- * [capybara](https://github.com/jnicklas/capybara) Acceptance test framework for web applications
- * [shoulda](https://github.com/thoughtbot/shoulda) a validations gem by thoughtbot
+### Delete like so...at your own risk!!!
+#### Ruby
+    find ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/Ruby -iname *.sublime-snippet -exec rm {} \;
+#### Rails
+    find ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/Rails -iname *.sublime-snippet -exec rm {} \;
+#### Rspec
+    find ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/RSpec/Snippets -iname *.sublime-snippet -exec rm {} \;
+
 
 ## Contributing
 Whilst I'm happy to review pull requests for bugfixes, and even for new snippets, I will be unable to commit to merging all pull requests - especially edge-cases. As noted above, I started this project after having over 500 snippets, and as such, my preference is to not return there! If submitting a pull request, please consider whether or not your snippet is for an edge-case.
