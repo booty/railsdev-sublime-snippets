@@ -8,7 +8,7 @@
 	$3
 <% end %>
   ]]></content>
-  <tabTrigger>fo</tabTrigger>
-  <scope>text.html.ruby</scope>
-  <description>form_for</description>
+	<tabTrigger>fo</tabTrigger>
+	<scope>text.html.ruby</scope>
+	<description>form_for</description>
 </snippet>
