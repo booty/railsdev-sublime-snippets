@@ -1,5 +1,5 @@
 # railsdev-sublime-snippets
-At last count, I had over 500 ruby/rails/rspec snippets installed - each with different naming conventions (depending on their creator). I wanted a core collection of useful snippets (with a somewhat-standard naming convention), hence I started from scratch and wrote the snippets in this collection.
+I started this project as I had over 500 ruby/rails/rspec snippets installed - each with different naming conventions (depending on their creator). I wanted a core collection of useful snippets (with a somewhat-standard naming convention), hence I started from scratch and wrote the snippets in this collection.
 
 ## Package Installation
 
