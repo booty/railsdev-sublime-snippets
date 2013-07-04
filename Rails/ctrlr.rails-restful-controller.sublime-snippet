@@ -19,7 +19,7 @@
 	def create
 		@${2:user} = User.new(params[:${2:user}])
 		if @${2:user}.save
-		  flash[:success] = "${1:User} successfuly created"
+		  flash[:success] = "${1:User} successfully created"
 		  redirect_to @${2:user}
 		else
 		  flash[:error] = "Something went wrong"
@@ -29,7 +29,7 @@
 
 	def update
 		if @${2:user}.update_attributes(params[:${2:user}])
-		  flash[:success] = "${1:User} was successfuly updated"
+		  flash[:success] = "${1:User} was successfully updated"
 		  redirect_to @${2:user}
 		else
 		  flash[:error] = "Something went wrong"
@@ -39,7 +39,7 @@
 
 	def destroy
 		if @${2:user}.destroy
-			flash[:success] = "${1:User} was successfuly deleted"
+			flash[:success] = "${1:User} was successfully deleted"
 			redirect_to @${2:user}s_url
 		else
 			flash[:error] = "Something went wrong"
