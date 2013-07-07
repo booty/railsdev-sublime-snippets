@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[<%= form_for ${1:@object}, html: { class: "form-horizontal" } do |${2:f}| %>
-	<%= render 'layouts/error_messages', ${2:f}: ${2:f.object} %>
+	<%= render 'layouts/error_messages', ${2:f}: ${2:f}.object %>
 
 	<div class="control-group">
 		<%= ${2:f}.label :${3:attribute}, class: "control-label" %>
