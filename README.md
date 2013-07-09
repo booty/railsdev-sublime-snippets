@@ -3,6 +3,8 @@ I started this project as I had over 500 ruby/rails/rspec snippets installed - e
 
 ## Package Installation
 
+### Package Control (Recommended)
+   Search for "Rails Developer Snippets" via Package Control otherwise...
 ### Mac OSX
     cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages
     git clone git@github.com:j10io/sublime-railsdev.git
