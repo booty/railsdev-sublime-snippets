@@ -14,7 +14,9 @@ I started this project as I had over 500 ruby/rails/rspec snippets installed - e
 ### Windows
     cd Users/<user>/AppData/Roaming/Sublime\ Text\ 2/Packages/
     git clone git@github.com:j10io/sublime-railsdev.git
-
+### Sublime Text 3 - Mac OSX
+    cd ~/Library/Application Support/Sublime Text 3/Packages/User
+    git clone git@github.com:j10io/railsdev-sublime-snippets.git
 ## Dependencies
 
  * [ApplySyntax](https://github.com/facelessuser/ApplySyntax) a sublime text plugin for syntax detection (rspec etc...)
