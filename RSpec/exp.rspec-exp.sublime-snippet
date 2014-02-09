@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[expect(:${1:subject}).to $2 ]]></content>
+	<content><![CDATA[expect(${1:subject}).to $2 ]]></content>
 	<tabTrigger>exp</tabTrigger>
 	<string>source.ruby.rspec</string>
 	<description>RSpec Expect</description>
